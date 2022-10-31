@@ -3,6 +3,11 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 #ruby '2.7.6'
 
+gem 'psych', '~> 3.1' #以下4つ追記
+gem 'net-imap'
+gem 'net-pop'
+gem 'net-smtp'
+
 gem 'rails',      '6.0.4'
 gem 'puma',       '4.3.6'
 gem 'sass-rails', '5.1.0'

@@ -11,7 +11,7 @@ gem 'net-smtp'
 gem 'rails',      '6.0.4'
 gem 'puma',       '4.3.6'
 gem 'sass-rails', '5.1.0'
-gem 'webpacker',  '4.0.7'
+gem 'webpacker',  '~> 5.0'
 gem 'turbolinks', '5.2.0'
 gem 'jbuilder',   '2.9.1'
 gem 'bootsnap',   '1.10.3', require: false
